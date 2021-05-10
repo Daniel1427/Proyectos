@@ -1,0 +1,72 @@
+body{ 
+    background-color: black;
+}
+.titulo{
+    height: 10vh;
+    width: 100%;
+    background-color:greenyellow;
+    text-align: center;
+    overflow: hidden;
+}
+.h{
+    background-color:black;
+    height: 8vh;
+    width: 80%;
+    font-size: 3.5vw;
+    color: greenyellow;
+
+    position: absolute;
+    top: 2.5%;
+    left: 10%;   
+}
+.animacionTitulo{
+    animation-name: animacionT;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animacionT {
+    0%{
+margin-left: 0;
+    }
+    50%{
+margin-left: 20%;
+    }
+    100%{
+        margin-right: 20%;
+    }
+
+        
+    }
+    
+    .texto{
+        width: 100%;
+        height: 80%;
+        background-color: black; 
+        margin-top: 2.5%;
+        font-size: 3vw;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: greenyellow;
+}
+#img{
+    width: 50%;
+    height: 50%;
+}
+
+#img:hover{
+    transition-duration:0.5 ;
+    transform: scale(1.2);
+}
+.nombre{
+    width: 100%;
+    height: 80%;
+    background-color: black; 
+    margin-top: 2.5%;
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: greenyellow;
+ }
+
+ 
